@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS grocery;
+
+USE grocery;
+
+CREATE TABLE IF NOT EXISTS groceries (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  items VARCHAR(20)
+);
+
+
+
